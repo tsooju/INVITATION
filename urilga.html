@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Invitation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #820000;
+        }
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+        .invitation-image {
+            width: 100%;
+            max-width: 600px;
+        }
+        .button-group {
+            position: absolute;
+            bottom: 50px; /* 지도 사진 아래에 위치 */
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #ff4500;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .button:hover {
+            background-color: #d14000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 초대장 이미지 -->
+        <img src="file:///C:/Users/gtsoo/Downloads/urilga.png" alt="초대장" class="invitation-image" />
+        <!-- 지도 버튼 -->
+        <div class="button-group">
+            <a class="button" href="https://map.naver.com/v5/search/한국기독교%20100주년%20기념관" target="_blank">Газрын зураг харах</a>
+        </div>
+    </div>
+</body>
+</html>
